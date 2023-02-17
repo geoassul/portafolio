@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Alura Challenge</title>
+        <link rel="stylesheet" href="C:\Users\adria\OneDrive\Escritorio\1742-HTML5-y-CSS3-parte1-master/reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <body>
+
+        <header>
+            <img class="logo1" src="imagenes/Logo.png" alt="logo alura">
+        </header>
+
+        <main>
+            
+            <section class="textarea_encriptador">
+                <textarea class="textarea" placeholder="ingrese su texto al encriptador"></textarea>
+                <div class="advertencia_textarea">
+                    <h6>solo letras minusculas y sin acento</h2>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">desencriptar</button>
+                </div>
+            </section>
+
+            <section class="result">
+                <textarea class="mensaje" placeholder="texto resultado"></textarea>
+                <div class="advertencia_result">
+                    <p class="advertencia1"><strong>no se encontro ningun mensaje</strong></p>
+                    <p class="advertencia2"> ingrese el texto para encriptar o desencriptar</p>
+                </div>
+                <div>
+                    <button class="btn-copiar" onclick="copiar()">copiar</button>
+                </div>
+            </section>
+        </main>
+
+        <footer> 
+            <p>Challenge Encriptador By: Anthony Ascue</p>
+        </footer>
+        <script src="script_toni.js"></script>
+
+    </body>
+    
+</html> 
