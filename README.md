@@ -1,4 +1,4 @@
 # portafolio
-<a href="https://geoassul.github.io/portafolio/">Visualiza mi repositorio</a>
+<a href="https://geoassul.github.io/portafolio/challenge">Visualiza mi repositorio</a>
 
 
